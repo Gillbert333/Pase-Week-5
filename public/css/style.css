@@ -1,0 +1,36 @@
+body {
+  font-family: PT Sans;
+  background-color: rgb(219, 214, 214);
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  border: 1px solid rgb(57, 241, 20));
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  backface-visibility: hidden;
+}
+
+.Cases_page {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  font-size: 20px;
+  background-color: rgb(219, 214, 214);
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
